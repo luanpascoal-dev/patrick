@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tregua?</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: rgb(255, 129, 129);
+    }
+    #content {
+      margin-top: 150px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    #yes-button {
+      background-color: green;
+    }
+    #no-button {
+      background-color: red;
+    }
+    #tregua-button {
+      background-color: gray;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="content">
+    <h1>Tregua?</h1>
+   
+    <br>
+    <button class="button" id="yes-button">Sim</button>
+    <button class="button" id="no-button">Nop</button>
+  </div>
+
+  <script>
+    document.getElementById('yes-button').addEventListener('click', function() {
+      window.location.href = 'Sim.html';
+    });
+
+    document.getElementById('no-button').addEventListener('click', function() {
+      alert('Erro, isso vai te custar doces.');
+    });
+  </script>
+
+</body>
+</html>
