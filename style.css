@@ -256,40 +256,46 @@ body {
     background-position: -1;
     background-size: cover;
   }
-  15% {
+  12% {
     background: url(foto2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-  30% {
+  25% {
     background: url(foto4.webp);
     background-repeat: no-repeat;
     background-position: 0.1;
     background-size: cover;
   }
-  45% {
+  37% {
     background: url(foto3.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-  60% {
+  50% {
     background: url(foto5.jpg);
     background-repeat: no-repeat;
     background-position: 1;
     background-size: cover;
   }
-  75% {
+  62% {
     background: url(foto6.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-  90% {
+  75% {
     background: url(foto7.jpg);
     background-repeat: no-repeat;
     background-position: 1;
+    background-size: cover;
+  }
+  87% {
+    background: url(foto8.jpg);
+    background-repeat: no-repeat;
+    background-position: -1;
     background-size: cover;
   }
   100% {
