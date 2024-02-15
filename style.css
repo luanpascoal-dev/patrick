@@ -234,7 +234,7 @@ body {
   scale: 0.4;
   color: red;
   cursor: default;
-  animation: changeImg 30s ease-out infinite;
+  animation: changeImg 50s ease-out infinite;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -256,22 +256,40 @@ body {
     background-position: -1;
     background-size: cover;
   }
-  25% {
+  15% {
     background: url(foto2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-  50% {
+  30% {
     background: url(foto4.webp);
     background-repeat: no-repeat;
     background-position: 0.1;
     background-size: cover;
   }
-  75% {
+  45% {
     background: url(foto3.webp);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+  }
+  60% {
+    background: url(foto5.jpg);
+    background-repeat: no-repeat;
+    background-position: 1;
+    background-size: cover;
+  }
+  75% {
+    background: url(foto6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  90% {
+    background: url(foto7.jpg);
+    background-repeat: no-repeat;
+    background-position: 1;
     background-size: cover;
   }
   100% {
